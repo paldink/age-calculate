@@ -1,0 +1,44 @@
+html, body, :root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 16px;
+    width: 500px;
+}
+
+#birthday {
+    padding: 16px;
+    color: black;
+    font-size: 18px;
+    border: 1px solid;
+}
+
+#check-button {
+    padding: 16px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#check-button:hover {
+    background-color: black;
+}
+
+label {
+    font-size: 18px;
+}
+
+.result {
+    font-size: 18px;
+    color: red;
+    margin-top: 16px;
+}
